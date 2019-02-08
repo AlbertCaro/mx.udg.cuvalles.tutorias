@@ -16,7 +16,9 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text(APP_NAME),
       ),
-      body: Container(),
+      body: Container(
+        child: Text("Prueba"),
+      ),
     );
   }
 }
